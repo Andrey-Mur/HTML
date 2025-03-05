@@ -1,75 +1,135 @@
+/* Общие стили */
 * {
-    padding: 0;
-  }
-  
-  
-  body {
-    font: 15px 'Roboto';
-  }
-  
-  
-  .conteiner {
-    width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-    .contacts {
-    text-align: right;
-    margin: 10px 25%;
-    float: right;
-    list-style-type: none;
-  }
-  
-  .header {
-    padding: 10px 0;
-  }
-  
-  .header img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-  }
-  
-  .photo,
-  .author {
-    display: inline-block;
-  }
-  
-  .author {
-    margin-left: 10px;
-    vertical-align: top;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-  
-  h3 {
-    text-align: center;
-    color: #000000;
-  }
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
 
-  
-  hr {
-    border: none;
-    color: #eee;
-    background-color: #eee;
-    height: 1px;
-  }
-  
-  
-  p {
-    text-align: left;
-    color: #000000;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #3498db;
-  }
-  
-  img {
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 5px;
-  }
+/* Контейнер */
+.conteiner {
+  width: 60%; /* Уменьшаем ширину контейнера */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.author h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.author h2:nth-child(2) {
+  font-size: 20px;
+  color: #777;
+}
+
+hr {
+  border: 1px solid #eee;
+  margin: 20px 0;
+}
+
+/* Блоки навыков и информации */
+.skills {
+  margin-bottom: 30px;
+}
+
+.skills h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.skills p, .skills ul {
+  margin-bottom: 15px;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills ul li {
+  margin-bottom: 8px;
+}
+
+.skills a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.skills a:hover {
+  text-decoration: underline;
+}
+
+/* Контейнер для контактов и языков */
+.contact-language-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.language, .contacts {
+  width: 48%;
+}
+
+.language h3, .contacts h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.language li, .contacts li {
+  margin-bottom: 8px;
+}
+
+.language li {
+  font-size: 16px;
+}
+
+.contacts li {
+  font-size: 16px;
+}
+
+.contacts img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.contacts a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
+
+.language {
+  text-align: left;
+}
+
+.contacts {
+  text-align: right;
+}
