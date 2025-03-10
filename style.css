@@ -15,8 +15,9 @@ body {
 
 /* Контейнер */
 .container {
-  width: 100%;
-  margin: 0 auto;
+  width: 80%; 
+  max-width: 800px; 
+  margin: 30px auto; 
   background-color: #fff;
   padding: 30px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
