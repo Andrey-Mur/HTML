@@ -10,12 +10,12 @@ body {
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 /* Контейнер */
 .container {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   background-color: #fff;
   padding: 30px;
