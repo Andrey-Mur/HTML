@@ -125,3 +125,23 @@ section a:hover {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+@media print {
+  body {
+    background: none; 
+  }
+
+  .container {
+    width: 210mm;
+    height: 297mm;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20mm;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
