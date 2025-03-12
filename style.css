@@ -1,147 +1,47 @@
-/* Общие стили */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-}
-
 body {
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
-  font-size: 13px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Контейнер */
-.container {
-  width: 80%; 
-  max-width: 800px; 
-  margin: 30px auto; 
-  background-color: #fff;
-  padding: 30px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+h1, h2, h3 {
+    color: #222;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.photo img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-right: 20px;
-  border: 3px solid #ddd;
+ul li {
+    margin-bottom: 5px;
 }
 
-.author h1 {
-  font-size: 28px;
-  font-weight: bold;
+a {
+    color: #0073e6;
+    text-decoration: none;
 }
 
-.author h2 {
-  font-size: 22px;
-  color: #777;
+a:hover {
+    text-decoration: underline;
 }
 
-/* Горизонтальные линии */
 hr {
-  border: 1px solid #eee;
-  margin: 20px 0;
+    border: 1px solid #ccc;
+    margin: 20px 0;
 }
 
-/* Стили для разделов */
-section {
-  margin-bottom: 30px;
+p {
+    margin: 5px 0;
 }
 
-section h3 {
-  font-size: 22px;
-  margin-bottom: 10px;
-  color: #444;
-}
-
-section p, section ul {
-  margin-bottom: 15px;
-  color: #555;
-}
-
-section ul {
-  list-style-type: none;
-}
-
-section ul li {
-  margin-bottom: 8px;
-}
-
-section a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-section a:hover {
-  text-decoration: underline;
-}
-
-/* Стили для контейнера контактов и языков */
-.contact-language-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.language {
-  width: 48%;
-}
-
-.contacts {
-  width: 48%;
-  margin-left: 4%;
-}
-
-.language h3, .contacts h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.language li, .contacts li {
-  margin-bottom: 8px;
-  font-size: 16px;
-}
-
-.contacts li {
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-}
-
-.contacts img {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-@media print {
-  body {
-    background: none; 
-  }
-
-  .container {
-    width: 210mm;
-    height: 297mm;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20mm;
-    box-shadow: none;
-    border-radius: 0;
-  }
-
-  section {
-    page-break-inside: avoid;
-  }
+.container {
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
 }
