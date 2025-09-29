@@ -54,3 +54,15 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: auto;
 }
+
+.contacts {
+      margin-top: 10px;
+      font-size: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .contacts p {
+      margin: 0;
+    }
