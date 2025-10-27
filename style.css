@@ -6,15 +6,6 @@ body {
     color: #333;
 }
 
-.photo img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-right: 20px;
-  border: 3px solid #ddd;
-}
-
-
 h1, h2, h3 {
     color: #222;
 }
@@ -66,3 +57,4 @@ p {
     .contacts p {
       margin: 0;
     }
+
